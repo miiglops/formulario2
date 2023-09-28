@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="formulario">
+        <h1>Cadastro de DEVs</h1>
+        <h2>Complete suas informações</h2>
+        <form action="">
+            <div id="textos">
+                <label for="nome">Nome</label>
+                <input  type="text" name="nome" id="nome"> <br>
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome"> <br>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email"><br>
+            </div>
+            <div id="radio">
+                <p>De qual lado da aplicação você desenvolve?</p>
+                <input type="radio" name="radio" id="front"> FrontEnd
+                <input type="radio" name="radio" id="back"> BackEnd
+                <input type="radio" name="radio" id="fullstack"> Fullstack
+            </div>
+            <div id="checkbox">
+                <p>Selecione as tecnologias que você ultiliza:</p>
+                <input type="checkbox" name="checkbox" id="html"> HTML
+                <input type="checkbox" name="checkbox" id="css"> CSS
+                <input type="checkbox" name="checkbox" id="javascript"> Javascript
+                <input type="checkbox" name="checkbox" id="flutter"> Flutter
+                <input type="checkbox" name="checkbox" id="c#"> C#
+                <input type="checkbox" name="checkbox" id="python"> Python
+                <input type="checkbox" name="checkbox" id="java"> Java
+            </div>
+            <div id="textarea">
+                <label for="texto">Conte um pouco mais da sua experiência:</label> <br>
+                <textarea name="text" id="texto" cols="50" rows="10"></textarea>
+            </div>
+            <p id="mundo"><b>O mundo se acabando e a gente aqui fazendo formulários</b></p>
+            <input type="submit" value="Enviar" id="enviar">
+            
+        </form>
+        <div id="imagens">
+            <label for="vidafront"><p id="vidafront"><b>Minha vida se eu escolher FrontEnd</b></p></label>
+            <img src="./assets/STK-20230621-WA0003_Edited.jpg" alt="morte">
+            <label for="vidaback"><p id="vidaback"><b>Minha vida se eu escolher BackEnd</b></p></label>
+            <img src="./assets/STK-20230621-WA0003_Edited.jpg" alt="morte">
+
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
